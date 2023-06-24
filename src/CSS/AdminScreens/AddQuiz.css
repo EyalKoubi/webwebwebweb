@@ -1,0 +1,85 @@
+.manager_background {
+    background-image: url("../../assets/managerScreen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.add-quiz-screen {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(205, 238, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(170px);
+}
+
+.add-quiz-screen h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-quiz-screen .input-group {
+    margin-bottom: 15px;
+}
+
+.add-quiz-screen label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-quiz-screen input[type="text"],
+.add-quiz-screen select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-quiz-screen .options h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.add-quiz-screen .button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-quiz-screen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-quiz-screen button:last-child {
+    margin-right: 0;
+}
+
+.add-quiz-screen .error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+.add-quiz-title {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .add-quiz-screen {
+        max-width: 90%;
+        margin-top: 100px;
+        transform: translateY(0);
+    }
+}

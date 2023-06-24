@@ -1,0 +1,59 @@
+
+.player_background {
+    background-image: url("../../assets/player.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+    .quiz-game-container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .quiz-game-title {
+        font-size: 18px;
+    }
+
+    .quiz-game-question {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .quiz-game-options {
+        margin: 10px 0;
+    }
+
+    .quiz-game-option label {
+        font-size: 14px;
+    }
+
+    .quiz-game-next-button,
+    .quiz-game-restart-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .quiz-game-container {
+        width: 80%;
+        margin-top: 50px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .quiz-game-container {
+        width: 600px;
+        margin-top: calc(50vh - 200px);
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .quiz-game-container {
+        width: 800px;
+    }
+}
